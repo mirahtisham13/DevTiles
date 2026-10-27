@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Broad rounded housing in cool grey with physical bevel -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer bottom shadow -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="14dp" />
+            <solid android:color="@color/bevel_raised_bottom" />
+        </shape>
+    </item>
+    <!-- Outer top highlight -->
+    <item android:bottom="2dp" android:right="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="14dp" />
+            <solid android:color="@color/bevel_raised_top" />
+        </shape>
+    </item>
+    <!-- Main cool grey chassis surface -->
+    <item android:top="1dp" android:left="1dp" android:bottom="2dp" android:right="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="13dp" />
+            <solid android:color="@color/chassis" />
+        </shape>
+    </item>
+</layer-list>

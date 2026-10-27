@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Dark Neumorphic Palette (Premium Dark Slate) -->
+    <!-- Background: deep sleek slate-charcoal (#1B2024) -->
+    <color name="neu_bg">#FF1B2024</color>
+    <!-- Surfaces: elevated soft matte dark slate (#242A30) -->
+    <color name="neu_surface">#FF242A30</color>
+    <color name="neu_surface_light">#FF2C333B</color>
+    <color name="neu_surface_dark">#FF1F2429</color>
+    <color name="neu_surface_pressed">#FF181C20</color>
+
+    <!-- Dark Neumorphic Depth: Soft Ambient Dark Shadow & Upper-Left Specular Glow -->
+    <color name="neu_shadow_dark_ambient">#B30B0E10</color>
+    <color name="neu_shadow_dark_direct">#E607090B</color>
+    <color name="neu_shadow_light">#33FFFFFF</color>
+    <color name="neu_shadow_light_soft">#FF343D46</color>
+    <color name="neu_rim_light">#1AFFFFFF</color>
+
+    <!-- Inset / Recessed Cavity -->
+    <color name="neu_inset_rim_dark">#FF121518</color>
+    <color name="neu_inset_rim_light">#FF2F3740</color>
+    <color name="neu_inset_surface_start">#FF1A1E22</color>
+    <color name="neu_inset_surface_end">#FF22282E</color>
+
+    <!-- Typography: Soft White (#EDF1F3) & Muted Slate Secondary Text -->
+    <color name="neu_text_primary">#FFEDF1F3</color>     <!-- Crisp soft off-white -->
+    <color name="neu_text_secondary">#FF9AA5AD</color>   <!-- Muted slate grey -->
+    <color name="neu_text_tertiary">#FF68747C</color>    <!-- Subdued caption -->
+    <color name="neu_text_on_dark">#FFEDF1F3</color>
+
+    <!-- Restrained Accents: Success Green & Indicator Orange -->
+    <color name="neu_success">#FF4CAF50</color>           <!-- Calm emerald green -->
+    <color name="neu_success_soft">#FF1E2F23</color>      <!-- Subtle dark green tint -->
+    <color name="neu_success_border">#4D4CAF50</color>
+    <color name="neu_warning">#FFFFA726</color>           <!-- Restrained warm amber -->
+    <color name="neu_warning_soft">#FF332617</color>
+    <color name="neu_warning_border">#4DFFA726</color>
+    <color name="neu_error">#FFEF5350</color>             <!-- Calm red for unrooted -->
+    <color name="neu_error_soft">#FF2A1818</color>
+    <color name="neu_error_border">#4DEF5350</color>
+    <color name="neu_link">#FF64B5F6</color>              <!-- Soft link blue -->
+    <color name="neu_accent">#FF4CAF50</color>
+    <color name="neu_accent_cyan">#FF4CAF50</color>
+    <color name="neu_accent_light">#FF1E2F23</color>
+    <color name="neu_accent_glow">#334CAF50</color>
+    <color name="neu_success_glow">#4D4CAF50</color>
+    <color name="neu_warning_glow">#4DFFA726</color>
+
+    <!-- Terminal Inset (Clean & subtle) -->
+    <color name="neu_terminal_bg">#FF14181B</color>
+    <color name="neu_terminal_code">#FF81C784</color>
+    <color name="neu_terminal_border">#FF283036</color>
+
+    <!-- Compatibility Aliases -->
+    <color name="chassis">@color/neu_bg</color>
+    <color name="chassis_raised">@color/neu_surface_light</color>
+    <color name="chassis_well">@color/neu_inset_surface_start</color>
+    <color name="ink">@color/neu_text_primary</color>
+    <color name="label">@color/neu_text_secondary</color>
+    <color name="field">@color/neu_terminal_bg</color>
+    <color name="on_field">@color/neu_text_on_dark</color>
+    <color name="on_field_muted">@color/neu_text_tertiary</color>
+    <color name="accent_orange">@color/neu_warning</color>
+    <color name="indicator_orange">@color/neu_warning</color>
+    <color name="indicator_green">@color/neu_success</color>
+    <color name="text_primary">@color/neu_text_primary</color>
+    <color name="text_muted">@color/neu_text_secondary</color>
+    <color name="text_quiet">@color/neu_text_tertiary</color>
+    <color name="screen_border">@color/neu_terminal_border</color>
+    <color name="screen_code">@color/neu_terminal_code</color>
+    <color name="bevel_raised_top">@color/neu_shadow_light_soft</color>
+    <color name="bevel_raised_bottom">@color/neu_shadow_dark_ambient</color>
+    <color name="bevel_well_top">@color/neu_inset_rim_dark</color>
+    <color name="bevel_well_bottom">@color/neu_inset_rim_light</color>
+    <color name="groove_dark">@color/neu_inset_rim_dark</color>
+    <color name="groove_light">@color/neu_shadow_light_soft</color>
+    <color name="screw_head">@color/neu_shadow_dark_direct</color>
+    <color name="screw_slot">@color/neu_text_secondary</color>
+    <color name="vent_slot">@color/neu_terminal_bg</color>
+    <color name="indicator_orange_glow">@color/neu_warning_border</color>
+    <color name="indicator_green_glow">@color/neu_success_border</color>
+    <color name="indicator_off">@color/neu_text_tertiary</color>
+    <color name="paper">@color/neu_bg</color>
+    <color name="secondary">@color/neu_text_secondary</color>
+    <color name="quiet">@color/neu_text_tertiary</color>
+    <color name="quiet_inverted">@color/neu_terminal_bg</color>
+</resources>

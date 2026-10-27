@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Recessed bezel with glowing orange indicator lamp -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer bezel shadow -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="14dp" android:height="14dp" />
+            <solid android:color="@color/bevel_raised_bottom" />
+        </shape>
+    </item>
+    <!-- Bezel ring -->
+    <item android:top="1dp" android:left="1dp" android:bottom="1dp" android:right="1dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/field" />
+        </shape>
+    </item>
+    <!-- Orange lamp lens -->
+    <item android:top="2dp" android:left="2dp" android:bottom="2dp" android:right="2dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/accent_orange" />
+        </shape>
+    </item>
+    <!-- Specular highlight dot -->
+    <item android:top="3dp" android:left="3dp" android:bottom="7dp" android:right="7dp">
+        <shape android:shape="oval">
+            <solid android:color="#80FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

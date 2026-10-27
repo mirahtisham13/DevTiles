@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.DevTiles" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/neu_text_primary</item>
+        <item name="colorPrimaryVariant">@color/neu_text_primary</item>
+        <item name="colorOnPrimary">@color/neu_bg</item>
+        <item name="colorSecondary">@color/neu_success</item>
+        <item name="colorOnSecondary">@color/neu_bg</item>
+        <item name="android:windowBackground">@color/neu_bg</item>
+        <item name="android:statusBarColor">@color/neu_bg</item>
+        <item name="android:navigationBarColor">@color/neu_bg</item>
+        <!-- Dark Mode: White status bar and navigation bar icons -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+</resources>

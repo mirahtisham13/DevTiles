@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 2x2 App Grid Material Icon -->
+    <path
+        android:fillColor="@color/neu_text_primary"
+        android:pathData="M4,10h5c0.55,0 1,-0.45 1,-1V4c0,-0.55 -0.45,-1 -1,-1H4C3.45,3 3,3.45 3,4v5C3,9.55 3.45,10 4,10zM4,21h5c0.55,0 1,-0.45 1,-1v-5c0,-0.55 -0.45,-1 -1,-1H4c-0.55,0 -1,0.45 -1,1v5C3,20.55 3.45,21 4,21zM15,4v5c0,0.55 0.45,1 1,1h5c0.55,0 1,-0.45 1,-1V4c0,-0.55 -0.45,-1 -1,-1h-5C15.45,3 15,3.45 15,4zM16,21h5c0.55,0 1,-0.45 1,-1v-5c0,-0.55 -0.45,-1 -1,-1h-5c-0.55,0 -1,0.45 -1,1v5C15,20.55 15.45,21 16,21z" />
+</vector>

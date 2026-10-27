@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chassis flush screw head -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="14dp"
+    android:height="14dp"
+    android:viewportWidth="14"
+    android:viewportHeight="14">
+    <!-- Screw rim shadow -->
+    <path
+        android:fillColor="#9AA2A7"
+        android:pathData="M7,0A7,7 0 1,0 7,14A7,7 0 1,0 7,0Z" />
+    <!-- Screw face -->
+    <path
+        android:fillColor="#BAC2C6"
+        android:pathData="M7,1A6,6 0 1,0 7,13A6,6 0 1,0 7,1Z" />
+    <!-- Screw highlight arc -->
+    <path
+        android:fillColor="#DFE5E8"
+        android:pathData="M3,3A5,5 0 0,1 11,3L10,4A4,4 0 0,0 4,4Z" />
+    <!-- Slotted drive at 45 deg -->
+    <path
+        android:fillColor="#5A6369"
+        android:pathData="M4.17,9.83L9.83,4.17L9.12,3.46L3.46,9.12Z" />
+</vector>

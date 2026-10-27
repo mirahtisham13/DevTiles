@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Circular instrument dial with knurled ring, bevel disc, and orange index indicator -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer bezel shadow -->
+    <path
+        android:fillColor="#8C9499"
+        android:pathData="M24,2A22,22 0 1,0 24,46A22,22 0 1,0 24,2Z" />
+    <!-- Outer bezel highlight ring -->
+    <path
+        android:fillColor="#F6F8F8"
+        android:pathData="M24,3A21,21 0 1,0 24,45A21,21 0 1,0 24,3Z" />
+    <!-- Dial recessed collar -->
+    <path
+        android:fillColor="#B0B8BC"
+        android:pathData="M24,5A19,19 0 1,0 24,43A19,19 0 1,0 24,5Z" />
+    <!-- Raised dial knob shadow -->
+    <path
+        android:fillColor="#959E03"
+        android:fillAlpha="0.0"
+        android:pathData="M0,0h1v1h-1z" />
+    <path
+        android:fillColor="#969FA4"
+        android:pathData="M24,8A16,16 0 1,0 24,40A16,16 0 1,0 24,8Z" />
+    <!-- Raised dial knob face -->
+    <path
+        android:fillColor="#E3E6E8"
+        android:pathData="M24,7A15,15 0 1,0 24,37A15,15 0 1,0 24,7Z" />
+    <!-- Dial face highlight rim -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,8A14,14 0 0,1 36,18L34,19A12,12 0 0,0 24,10Z" />
+    <!-- Dial center cap -->
+    <path
+        android:fillColor="#CCD2D5"
+        android:pathData="M24,18A6,6 0 1,0 24,30A6,6 0 1,0 24,18Z" />
+    <!-- Dial index notch/line -->
+    <path
+        android:fillColor="#181E22"
+        android:pathData="M23,8h2v8h-2z" />
+    <!-- Orange active index pip -->
+    <path
+        android:fillColor="#F15B22"
+        android:pathData="M24,10A2.5,2.5 0 1,0 24,15A2.5,2.5 0 1,0 24,10Z" />
+</vector>

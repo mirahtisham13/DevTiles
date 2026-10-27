@@ -1,0 +1,12 @@
+<!-- Network Mode / Cellular signal icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="@android:color/white">
+    <!-- Signal bars & antenna -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M2,22h20L22,2L2,22zM20,20h-3v-4h3v4zM20,14h-3v-4h3v4zM20,8h-3V5.83L20,2.83V8zM15,20h-3v-7h3v7zM10,20H7v-3.5h3v3.5z" />
+</vector>

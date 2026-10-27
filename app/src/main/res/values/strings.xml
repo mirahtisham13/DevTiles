@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DevTiles</string>
+    <string name="tile_developer_options">Dev Options</string>
+    <string name="tile_usb_debugging">USB Debug</string>
+    <string name="tile_private_dns">Private DNS</string>
+    <string name="tile_network_mode">Network Mode</string>
+    <string name="tile_manage_apps">Manage Apps</string>
+</resources>

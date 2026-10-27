@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Soft shadow -->
+    <path
+        android:fillColor="#338E9EBA"
+        android:pathData="M31,31 h46 c4.4,0 8,3.6 8,8 v46 c0,4.4 -3.6,8 -8,8 h-46 c-4.4,0 -8,-3.6 -8,-8 v-46 c0,-4.4 3.6,-8 8,-8 z" />
+    <!-- Foreground Squircle -->
+    <path
+        android:fillColor="#F0F4F9"
+        android:pathData="M29,29 h46 c4.4,0 8,3.6 8,8 v46 c0,4.4 -3.6,8 -8,8 h-46 c-4.4,0 -8,-3.6 -8,-8 v-46 c0,-4.4 3.6,-8 8,-8 z" />
+    <!-- White specular top-left highlight -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M29,29 h46 c4.4,0 8,3.6 8,8 v4 h-50 v-8 c0,-2.2 1.8,-4 4,-4 z" />
+    <!-- Code Bracket < -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M48,46 L40,54 L48,62 L45,65 L34,54 L45,43 Z" />
+    <!-- Code Bracket > -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M60,46 L68,54 L60,62 L63,65 L74,54 L63,43 Z" />
+    <!-- Slash / -->
+    <path
+        android:fillColor="#0EA5E9"
+        android:pathData="M56,42 L59,42 L52,66 L49,66 Z" />
+</vector>

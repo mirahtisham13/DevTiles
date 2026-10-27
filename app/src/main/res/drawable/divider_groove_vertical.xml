@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chassis narrow vertical seam groove: 1dp dark shadow left, 1dp light highlight right -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/groove_dark" />
+            <size android:width="1dp" />
+        </shape>
+    </item>
+    <item android:left="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/groove_light" />
+            <size android:width="1dp" />
+        </shape>
+    </item>
+</layer-list>
